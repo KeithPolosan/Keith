@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Home - Workout & Exercise</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shoctcut icon" href="image/logo.jpg">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="FITNESS">
+          <img src="image/logo.jpg" alt="Logo">
+        </a>
+        <ul>
+          <li><a href="./Home.html">Home</a></li>
+          
+          <li>
+            <a href="Work-out Section.html">Work-out Section </a>
+            <ul class="dropdown">
+              <li><a href="./Work-out.html">Work-out</a></li>
+              <li><a href="./Strecthing.html">Stretching</a></li>
+              <li><a href="./plan-week1.html">Plan Week 1</a></li>
+              <li><a href="./plan-week2.html">Plan Week 2</a></li>
+              <li><a href="./plan-week3.html">Plan Week 3</a></li>
+            </ul>
+          </li>
+      
+          <li>
+            <a href="./Nutriton.html">Nutrition </a>
+            <ul class="dropdown">
+              <li><a href="./meal-ideas.html">Meal Ideas</a></li>
+              <li><a href="./hydration.html">Hydration</a></li>
+              <li><a href="./budget-tips.html">Budget Tips</a></li>
+            </ul>
+          </li>
+      
+          <li>
+            <a href="./Motivation&Support.html">Motivation & Support </a>
+            <ul class="dropdown">
+                <li><a href="./habit-tracker.html">Habit-tracker</a></li>
+              <li><a href="./mental-health.html">Mental Health</a></li>
+              <li><a href="./success-stories.html">Success-stories</a></li>
+            </ul>
+          </li>
+      
+          <li>
+            <a href="./Media&Visuals.html">Media & Visuals </a>
+            <ul class="dropdown">
+              <li><a href="./infographics.html">Infographics</a></li>
+              <li><a href="./printables.html">Printables</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="./about & contact.html">About & Contact</a></li>
+        </ul>
+      </div>
+          <header>Fitness Motivation & Support</header>
+    <main>
+        <section class="hero">
+            <p>Start your journey to a better you today. Small steps lead to big changes. Believe in yourself and watch what happens.</p>
+        </section>
+
+        <section class="quote-section">
+            <div class="quote-box">
+                <h3>Today's Motivational Quote</h3>
+                <blockquote>"Success is not final, failure is not fatal: It is the courage to continue that counts."</blockquote>
+                <p>- Winston Churchill</p>
+            </div>
+        </section>
+
+        <section class="success-stories">
+            <h2>Success Stories</h2>
+            <div class="story">
+                <h3 style="color: aliceblue;">From Couch to 5K</h3>
+                <p>Sarah went from sedentary to running her first 5K in just 3 months. "I started with just 5 minutes a day and built up slowly. The key was consistency!"</p>
+            </div>
+            <div class="story">
+                <h3 style="color: aliceblue;">Meditation Changed My Life</h3>
+                <p>Mark struggled with anxiety until he discovered daily meditation. "Just 10 minutes each morning completely transformed my mental health and productivity."</p>
+            </div>
+            <div class="story">
+                <h3 style="color: aliceblue;">Healthy Eating on a Budget</h3>
+                <p>The Johnson family cut their food budget by 20% while eating healthier. "Meal planning and simple recipes made all the difference."</p>
+            </div>
+        </section>
+
+        <section class="habit-tracker">
+            <h2>Healthy Habit Tracker</h2>
+            <p>Download and print this 30-day tracker to build your healthy habits:</p>
+            <div class="tracker-container" id="tracker">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Habit</th>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Morning Water</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>30-min Exercise</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>5 Servings Veg</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>7-8 Hours Sleep</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button onclick="printTracker()">Print Tracker</button>
+            <button onclick="downloadTracker()">Download Tracker</button>
+        </section>
+
+        <section class="inspiration">
+            <h2 style="color: aliceblue;">Daily Inspiration</h2>
+            <div class="inspiration-grid">
+                <div class="inspiration-card">
+                    <h3 style="color: aliceblue;">Morning Motivation</h3>
+                    <p>"Win the morning, win the day. Start with purpose and the rest will follow."</p>
+                </div>
+                <div class="inspiration-card">
+                    <h3 style="color: aliceblue;">Overcoming Obstacles</h3>
+                    <p>"The obstacle is the way. What stands in the way becomes the way."</p>
+                </div>
+                <div class="inspiration-card">
+                    <h3 style="color: aliceblue;">Consistency</h3>
+                    <p>"Small daily improvements are the key to staggering long-term results."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Fitness  Motivation & Support Guide. Stay strong, stay healthy!</p>
+    </footer>
+
+  
+</body>
+</html>
